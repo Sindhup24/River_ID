@@ -6,7 +6,7 @@ import folium
 from folium.plugins import TimestampedGeoJson
 
 # Load the CSV file
-file_path = '/Users/sinugp/Downloads/fc_geoglows_random_20240429.csv'
+file_path = 'fc_geoglows_random_20240429.csv'
 data = pd.read_csv(file_path)
 
 # Extract unique IDs
